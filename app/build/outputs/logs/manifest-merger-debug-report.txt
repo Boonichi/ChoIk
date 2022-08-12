@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.material:material:1.2.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/b988cdf40af7cdf3e0317011f8e5bfe7/material-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/ec4dd897d4037390d3cac18fc3984d5c/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
 MERGED from [com.mikhaellopez:circularimageview:4.3.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/5deb0fa86c4619fea3c60a417266d626/jetified-circularimageview-4.3.0/AndroidManifest.xml:2:1-9:12
@@ -38,29 +38,29 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/phanvanhung/.gradle/c
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/c4ae604a4df59458501927b867027f06/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/884715ee5d4759e99f0bf4b3058e7279/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/01339aeadc2379d14234ec1725fb1d1d/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:3:5-31
-		INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:4:3-64
+ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:4:3-64
 	android:name
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:4:20-62
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:4:20-62
 application
-ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:5:5-24:19
 MERGED from [com.google.android.material:material:1.2.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/b988cdf40af7cdf3e0317011f8e5bfe7/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/b988cdf40af7cdf3e0317011f8e5bfe7/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/ec4dd897d4037390d3cac18fc3984d5c/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -76,55 +76,55 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/phan
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/9f4cd02ec375ac03249aba089dd3518f/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:8:9-29
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:8:9-29
 	android:roundIcon
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:11:9-50
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:11:9-50
 activity#com.android.vnnv.OrderSucceessActivity
-ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:12:9-84
+ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:12:9-84
 	android:name
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:12:19-72
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:12:19-72
 activity#com.android.vnnv.PlaceYourOrderActivity
-ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:13:9-76
+ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:13:9-76
 	android:name
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:13:19-73
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:13:19-73
 activity#com.android.vnnv.RestaurantMenuActivity
-ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:14:9-76
+ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:14:9-76
 	android:name
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:14:19-73
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:14:19-73
 activity#com.android.vnnv.SplashActivity
-ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:15:9-21:20
+ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:15:19-65
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:15:19-65
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:19:27-74
 activity#com.android.vnnv.LoginPage
-ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:22:9-62
+ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:22:9-62
 	android:name
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:22:19-60
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:22:19-60
 activity#com.android.vnnv.ChooseRestaurant
-ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:23:9-70
+ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:23:9-70
 	android:name
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:23:19-67
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:23:19-67
 uses-sdk
-INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
-INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
+INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.2.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/b988cdf40af7cdf3e0317011f8e5bfe7/material-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.2.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/b988cdf40af7cdf3e0317011f8e5bfe7/material-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/ec4dd897d4037390d3cac18fc3984d5c/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
@@ -193,13 +193,13 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/phanvanhung/.gradl
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/884715ee5d4759e99f0bf4b3058e7279/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/01339aeadc2379d14234ec1725fb1d1d/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/01339aeadc2379d14234ec1725fb1d1d/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
-INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
+INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml

@@ -6,62 +6,62 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
+8-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml
+9-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:4:3-64
-11-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:4:20-62
+11-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:4:3-64
+11-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:4:20-62
 12
 13    <application
-13-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:5:5-24:19
+13-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:5:5-24:19
 14        android:allowBackup="true"
-14-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:6:9-35
+14-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:6:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 15-->[androidx.core:core:1.5.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/9f4cd02ec375ac03249aba089dd3518f/core-1.5.0/AndroidManifest.xml:24:18-86
 16        android:debuggable="true"
 17        android:extractNativeLibs="false"
 18        android:icon="@mipmap/ic_launcher"
-18-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:7:9-43
+18-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:7:9-43
 19        android:label="VnnV"
-19-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:8:9-29
+19-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:8:9-29
 20        android:roundIcon="@mipmap/ic_launcher_round"
-20-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:9:9-54
+20-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:9:9-54
 21        android:supportsRtl="true"
-21-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:10:9-35
+21-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:10:9-35
 22        android:testOnly="true"
 23        android:theme="@style/Theme.FoodOrderApp" >
-23-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:11:9-50
+23-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:11:9-50
 24        <activity android:name="com.android.vnnv.OrderSucceessActivity" />
-24-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:12:9-84
-24-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:12:19-72
+24-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:12:9-84
+24-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:12:19-72
 25        <activity android:name="com.android.vnnv.PlaceYourOrderActivity" />
-25-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:13:9-76
-25-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:13:19-73
+25-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:13:9-76
+25-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:13:19-73
 26        <activity android:name="com.android.vnnv.RestaurantMenuActivity" />
-26-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:14:9-76
-26-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:14:19-73
+26-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:14:9-76
+26-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:14:19-73
 27        <activity android:name="com.android.vnnv.SplashActivity" >
-27-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:15:9-21:20
-27-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:15:19-65
+27-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:15:9-21:20
+27-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:15:19-65
 28            <intent-filter>
-28-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:16:13-20:29
+28-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:16:13-20:29
 29                <action android:name="android.intent.action.MAIN" />
-29-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:17:17-69
-29-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:17:25-66
+29-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:17:17-69
+29-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:17:25-66
 30
 31                <category android:name="android.intent.category.LAUNCHER" />
-31-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:19:17-77
-31-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:19:27-74
+31-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:19:17-77
+31-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:19:27-74
 32            </intent-filter>
 33        </activity>
 34        <activity android:name="com.android.vnnv.LoginPage" />
-34-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:22:9-62
-34-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:22:19-60
+34-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:22:9-62
+34-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:22:19-60
 35        <activity android:name="com.android.vnnv.ChooseRestaurant" />
-35-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:23:9-70
-35-->/Users/phanvanhung/FoodApp/FoodOrderApp/app/src/main/AndroidManifest.xml:23:19-67
+35-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:23:9-70
+35-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:23:19-67
 36    </application>
 37
 38</manifest>

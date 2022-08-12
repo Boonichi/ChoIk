@@ -43,3 +43,5 @@ com/android/vnnv/LoginPage.java
  com.android.vnnv.LoginPage$1
 com/android/vnnv/Profile.java
  com.android.vnnv.Profile
+com/android/vnnv/DriverPage.java
+ com.android.vnnv.DriverPage

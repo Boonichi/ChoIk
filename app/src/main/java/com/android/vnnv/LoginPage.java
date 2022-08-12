@@ -28,10 +28,14 @@ public class LoginPage extends AppCompatActivity {
         loginbtn.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
-                //correct
+            if(username.getText().toString().equals("customer") && password.getText().toString().equals("customer")){
+                //correct Customer
                 Intent intent = new Intent(LoginPage.this, ChooseRestaurant.class);
                 startActivity(intent);
+            }
+            else if (username.getText().toString().equals("shipper") && password.getText().toString().equals("shipper")){
+                //correct Shipper
+
             }
             else
                 //incorrect
