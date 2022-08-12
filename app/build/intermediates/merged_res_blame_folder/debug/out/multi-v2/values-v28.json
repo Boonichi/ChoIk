@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/phanvanhung/FoodApp/FoodOrderApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
+            "outputFile": "D:\\ChoIk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "/Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/2ee880aacba8530f4ee7c3b76c527be1/appcompat-1.3.0/res/values-v28/values-v28.xml",
+                    "source": "C:\\Users\\gbhoa\\.gradle\\caches\\transforms-2\\files-2.1\\3dca4e41098435d56d4b620ae0452ee0\\appcompat-1.3.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/b988cdf40af7cdf3e0317011f8e5bfe7/material-1.2.1/res/values-v28/values-v28.xml",
+                    "source": "C:\\Users\\gbhoa\\.gradle\\caches\\transforms-2\\files-2.1\\446c24fd4874baaaef6cc596145fec7b\\material-1.2.1\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

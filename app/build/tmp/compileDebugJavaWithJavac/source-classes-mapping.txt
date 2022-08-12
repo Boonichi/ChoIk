@@ -9,12 +9,6 @@ com/android/vnnv/RestaurantMenuActivity.java
  com.android.vnnv.RestaurantMenuActivity$1
 com/android/vnnv/BuildConfig.java
  com.android.vnnv.BuildConfig
-com/android/vnnv/model/Menu.java
- com.android.vnnv.model.Menu
- com.android.vnnv.model.Menu$1
-com/android/vnnv/adapters/PlaceYourOrderAdapter.java
- com.android.vnnv.adapters.PlaceYourOrderAdapter
- com.android.vnnv.adapters.PlaceYourOrderAdapter$MyViewHolder
 com/android/vnnv/adapters/MenuListAdapter.java
  com.android.vnnv.adapters.MenuListAdapter
  com.android.vnnv.adapters.MenuListAdapter$1
@@ -22,6 +16,12 @@ com/android/vnnv/adapters/MenuListAdapter.java
  com.android.vnnv.adapters.MenuListAdapter$3
  com.android.vnnv.adapters.MenuListAdapter$MenuListClickListener
  com.android.vnnv.adapters.MenuListAdapter$MyViewHolder
+com/android/vnnv/model/Menu.java
+ com.android.vnnv.model.Menu
+ com.android.vnnv.model.Menu$1
+com/android/vnnv/adapters/PlaceYourOrderAdapter.java
+ com.android.vnnv.adapters.PlaceYourOrderAdapter
+ com.android.vnnv.adapters.PlaceYourOrderAdapter$MyViewHolder
 com/android/vnnv/model/Hours.java
  com.android.vnnv.model.Hours
 com/android/vnnv/OrderSucceessActivity.java
@@ -32,14 +32,17 @@ com/android/vnnv/adapters/RestaurantListAdapter.java
  com.android.vnnv.adapters.RestaurantListAdapter$1
  com.android.vnnv.adapters.RestaurantListAdapter$MyViewHolder
  com.android.vnnv.adapters.RestaurantListAdapter$RestaurantListClickListener
+com/android/vnnv/model/User.java
+ com.android.vnnv.model.User
 com/android/vnnv/model/RestaurantModel.java
  com.android.vnnv.model.RestaurantModel
  com.android.vnnv.model.RestaurantModel$1
+com/android/vnnv/Profile.java
+ com.android.vnnv.Profile
 com/android/vnnv/SplashActivity.java
  com.android.vnnv.SplashActivity
  com.android.vnnv.SplashActivity$1
 com/android/vnnv/LoginPage.java
  com.android.vnnv.LoginPage
  com.android.vnnv.LoginPage$1
-com/android/vnnv/Profile.java
- com.android.vnnv.Profile
+ com.android.vnnv.LoginPage$1$1
