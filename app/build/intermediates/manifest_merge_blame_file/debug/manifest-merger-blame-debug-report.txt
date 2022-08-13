@@ -21,7 +21,7 @@
 15-->[com.google.firebase:firebase-database:20.0.5] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/df01c2d7571bd05be7cd9d3a29c4b538/jetified-firebase-database-20.0.5/AndroidManifest.xml:25:22-76
 16
 17    <application
-17-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:5:5-24:19
+17-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:5:5-26:19
 18        android:allowBackup="true"
 18-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -68,51 +68,57 @@
 39        <activity android:name="com.android.vnnv.ChooseMarket" />
 39-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:23:9-66
 39-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:23:19-63
-40
-41        <service
-41-->[com.google.firebase:firebase-database:20.0.5] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/df01c2d7571bd05be7cd9d3a29c4b538/jetified-firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19
-42            android:name="com.google.firebase.components.ComponentDiscoveryService"
-42-->[com.google.firebase:firebase-database:20.0.5] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/df01c2d7571bd05be7cd9d3a29c4b538/jetified-firebase-database-20.0.5/AndroidManifest.xml:30:13-84
-43            android:directBootAware="true"
-43-->[com.google.firebase:firebase-common:20.1.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/bc5fa9899c71ac909cc5bf1c2f5aaf2c/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
-44            android:exported="false" >
-44-->[com.google.firebase:firebase-database:20.0.5] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/df01c2d7571bd05be7cd9d3a29c4b538/jetified-firebase-database-20.0.5/AndroidManifest.xml:31:13-37
-45            <meta-data
-45-->[com.google.firebase:firebase-database:20.0.5] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/df01c2d7571bd05be7cd9d3a29c4b538/jetified-firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
-46                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-46-->[com.google.firebase:firebase-database:20.0.5] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/df01c2d7571bd05be7cd9d3a29c4b538/jetified-firebase-database-20.0.5/AndroidManifest.xml:33:17-109
-47                android:value="com.google.firebase.components.ComponentRegistrar" />
-47-->[com.google.firebase:firebase-database:20.0.5] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/df01c2d7571bd05be7cd9d3a29c4b538/jetified-firebase-database-20.0.5/AndroidManifest.xml:34:17-82
-48        </service>
-49
-50        <provider
-50-->[com.google.firebase:firebase-common:20.1.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/bc5fa9899c71ac909cc5bf1c2f5aaf2c/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
-51            android:name="com.google.firebase.provider.FirebaseInitProvider"
-51-->[com.google.firebase:firebase-common:20.1.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/bc5fa9899c71ac909cc5bf1c2f5aaf2c/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
-52            android:authorities="com.android.vnnv.firebaseinitprovider"
-52-->[com.google.firebase:firebase-common:20.1.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/bc5fa9899c71ac909cc5bf1c2f5aaf2c/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
-53            android:directBootAware="true"
-53-->[com.google.firebase:firebase-common:20.1.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/bc5fa9899c71ac909cc5bf1c2f5aaf2c/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
-54            android:exported="false"
-54-->[com.google.firebase:firebase-common:20.1.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/bc5fa9899c71ac909cc5bf1c2f5aaf2c/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
-55            android:initOrder="100" />
-55-->[com.google.firebase:firebase-common:20.1.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/bc5fa9899c71ac909cc5bf1c2f5aaf2c/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
-56
-57        <activity
-57-->[com.google.android.gms:play-services-base:18.0.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/0a548f20269d036464e66c0b481f2e14/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-58            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-58-->[com.google.android.gms:play-services-base:18.0.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/0a548f20269d036464e66c0b481f2e14/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-59            android:exported="false"
-59-->[com.google.android.gms:play-services-base:18.0.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/0a548f20269d036464e66c0b481f2e14/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-60            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-60-->[com.google.android.gms:play-services-base:18.0.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/0a548f20269d036464e66c0b481f2e14/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-61
-62        <meta-data
-62-->[com.google.android.gms:play-services-basement:18.0.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/1a89668d432483fc8231fd87eb156294/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
-63            android:name="com.google.android.gms.version"
-63-->[com.google.android.gms:play-services-basement:18.0.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/1a89668d432483fc8231fd87eb156294/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
-64            android:value="@integer/google_play_services_version" />
-64-->[com.google.android.gms:play-services-basement:18.0.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/1a89668d432483fc8231fd87eb156294/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
-65    </application>
-66
-67</manifest>
+40        <activity android:name="com.android.vnnv.DriverPage" />
+40-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:24:9-64
+40-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:24:19-61
+41        <activity android:name="com.android.vnnv.SignupPage" />
+41-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:25:9-64
+41-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:25:19-61
+42
+43        <service
+43-->[com.google.firebase:firebase-database:20.0.5] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/df01c2d7571bd05be7cd9d3a29c4b538/jetified-firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19
+44            android:name="com.google.firebase.components.ComponentDiscoveryService"
+44-->[com.google.firebase:firebase-database:20.0.5] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/df01c2d7571bd05be7cd9d3a29c4b538/jetified-firebase-database-20.0.5/AndroidManifest.xml:30:13-84
+45            android:directBootAware="true"
+45-->[com.google.firebase:firebase-common:20.1.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/bc5fa9899c71ac909cc5bf1c2f5aaf2c/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+46            android:exported="false" >
+46-->[com.google.firebase:firebase-database:20.0.5] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/df01c2d7571bd05be7cd9d3a29c4b538/jetified-firebase-database-20.0.5/AndroidManifest.xml:31:13-37
+47            <meta-data
+47-->[com.google.firebase:firebase-database:20.0.5] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/df01c2d7571bd05be7cd9d3a29c4b538/jetified-firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
+48                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+48-->[com.google.firebase:firebase-database:20.0.5] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/df01c2d7571bd05be7cd9d3a29c4b538/jetified-firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-database:20.0.5] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/df01c2d7571bd05be7cd9d3a29c4b538/jetified-firebase-database-20.0.5/AndroidManifest.xml:34:17-82
+50        </service>
+51
+52        <provider
+52-->[com.google.firebase:firebase-common:20.1.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/bc5fa9899c71ac909cc5bf1c2f5aaf2c/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+53            android:name="com.google.firebase.provider.FirebaseInitProvider"
+53-->[com.google.firebase:firebase-common:20.1.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/bc5fa9899c71ac909cc5bf1c2f5aaf2c/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+54            android:authorities="com.android.vnnv.firebaseinitprovider"
+54-->[com.google.firebase:firebase-common:20.1.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/bc5fa9899c71ac909cc5bf1c2f5aaf2c/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+55            android:directBootAware="true"
+55-->[com.google.firebase:firebase-common:20.1.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/bc5fa9899c71ac909cc5bf1c2f5aaf2c/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+56            android:exported="false"
+56-->[com.google.firebase:firebase-common:20.1.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/bc5fa9899c71ac909cc5bf1c2f5aaf2c/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+57            android:initOrder="100" />
+57-->[com.google.firebase:firebase-common:20.1.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/bc5fa9899c71ac909cc5bf1c2f5aaf2c/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+58
+59        <activity
+59-->[com.google.android.gms:play-services-base:18.0.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/0a548f20269d036464e66c0b481f2e14/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+60            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+60-->[com.google.android.gms:play-services-base:18.0.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/0a548f20269d036464e66c0b481f2e14/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+61            android:exported="false"
+61-->[com.google.android.gms:play-services-base:18.0.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/0a548f20269d036464e66c0b481f2e14/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+62-->[com.google.android.gms:play-services-base:18.0.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/0a548f20269d036464e66c0b481f2e14/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+63
+64        <meta-data
+64-->[com.google.android.gms:play-services-basement:18.0.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/1a89668d432483fc8231fd87eb156294/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+65            android:name="com.google.android.gms.version"
+65-->[com.google.android.gms:play-services-basement:18.0.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/1a89668d432483fc8231fd87eb156294/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+66            android:value="@integer/google_play_services_version" />
+66-->[com.google.android.gms:play-services-basement:18.0.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/1a89668d432483fc8231fd87eb156294/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+67    </application>
+68
+69</manifest>

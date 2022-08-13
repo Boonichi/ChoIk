@@ -60,23 +60,16 @@ public class LoginPage extends AppCompatActivity {
                             Intent intent = new Intent(LoginPage.this, ChooseMarket.class);
                             startActivity(intent);
                         }
-                    else if (snapshot.child("shipper").child(username.getText().toString()).exists())
-                        {
-                            User shipper = snapshot.child("shipper").child(username.getText().toString()).getValue(User.class);
-                            if (shipper.getPass().equals(password.getText().toString())) {
-                                Intent intent = new Intent(LoginPage.this, DriverPage.class);
-                                startActivity(intent);
-                            }
-                        }
-                        else {
-                            Toast.makeText(LoginPage.this, "Wrong Password", Toast.LENGTH_SHORT).show();
+                    } else if (snapshot.child("shipper").child(username.getText().toString()).exists()) {
+                        User shipper = snapshot.child("shipper").child(username.getText().toString()).getValue(User.class);
+                        if (shipper.getPass().equals(password.getText().toString())) {
+                            Intent intent = new Intent(LoginPage.this, DriverPage.class);
+                            startActivity(intent);
                         }
                     }
                     else {
-                        Toast.makeText(LoginPage.this, "User not exist", Toast.LENGTH_SHORT).show();
-
-                    }
-                }
+                    Toast.makeText(LoginPage.this, "User not exist", Toast.LENGTH_SHORT).show();
+                    }}
 
 
                 @Override

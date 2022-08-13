@@ -2,6 +2,11 @@ com/android/vnnv/PlaceYourOrderActivity.java
  com.android.vnnv.PlaceYourOrderActivity
  com.android.vnnv.PlaceYourOrderActivity$1
  com.android.vnnv.PlaceYourOrderActivity$2
+com/android/vnnv/adapters/MarketListAdapter.java
+ com.android.vnnv.adapters.MarketListAdapter
+ com.android.vnnv.adapters.MarketListAdapter$1
+ com.android.vnnv.adapters.MarketListAdapter$MyViewHolder
+ com.android.vnnv.adapters.MarketListAdapter$RestaurantListClickListener
 com/android/vnnv/BuildConfig.java
  com.android.vnnv.BuildConfig
 com/android/vnnv/adapters/MenuListAdapter.java
@@ -22,11 +27,11 @@ com/android/vnnv/model/Hours.java
 com/android/vnnv/MarketMenuActivity.java
  com.android.vnnv.MarketMenuActivity
  com.android.vnnv.MarketMenuActivity$1
-com/android/vnnv/adapters/RestaurantListAdapter.java
- com.android.vnnv.adapters.RestaurantListAdapter
- com.android.vnnv.adapters.RestaurantListAdapter$1
- com.android.vnnv.adapters.RestaurantListAdapter$MyViewHolder
- com.android.vnnv.adapters.RestaurantListAdapter$RestaurantListClickListener
+com/android/vnnv/SignupPage.java
+ com.android.vnnv.SignupPage
+ com.android.vnnv.SignupPage$1
+ com.android.vnnv.SignupPage$2
+ com.android.vnnv.SignupPage$2$1
 com/android/vnnv/model/MarketModel.java
  com.android.vnnv.model.MarketModel
  com.android.vnnv.model.MarketModel$1
@@ -43,7 +48,8 @@ com/android/vnnv/ChooseMarket.java
 com/android/vnnv/LoginPage.java
  com.android.vnnv.LoginPage
  com.android.vnnv.LoginPage$1
- com.android.vnnv.LoginPage$1$1
+ com.android.vnnv.LoginPage$2
+ com.android.vnnv.LoginPage$2$1
 com/android/vnnv/Profile.java
  com.android.vnnv.Profile
 com/android/vnnv/DriverPage.java

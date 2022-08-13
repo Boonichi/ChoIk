@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.android.vnnv.adapters.RestaurantListAdapter;
+import com.android.vnnv.adapters.MarketListAdapter;
 import com.android.vnnv.model.MarketModel;
 import com.google.gson.Gson;
 
@@ -21,7 +21,7 @@ import java.io.Writer;
 import java.util.Arrays;
 import java.util.List;
 
-public class ChooseMarket extends AppCompatActivity implements RestaurantListAdapter.RestaurantListClickListener {
+public class ChooseMarket extends AppCompatActivity implements MarketListAdapter.RestaurantListClickListener {
 
     @Override
    protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +39,7 @@ public class ChooseMarket extends AppCompatActivity implements RestaurantListAda
     private void initRecyclerView(List<MarketModel> marketModelList) {
         RecyclerView recyclerView =  findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        RestaurantListAdapter adapter = new RestaurantListAdapter(marketModelList, this);
+        MarketListAdapter adapter = new MarketListAdapter(marketModelList, this);
         recyclerView.setAdapter(adapter);
     }
 

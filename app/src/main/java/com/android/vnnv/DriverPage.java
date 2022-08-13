@@ -16,10 +16,9 @@ public class DriverPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.delivery_page);
+        setContentView(R.layout.shipper_delivery_page);
 
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        final DatabaseReference table_users =  database.getReference("Pending");
+
 
 
 
