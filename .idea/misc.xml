@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ChoIk/app/src/main/res/layout/activity_market_menu.xml" value="0.36302083333333335" />
+        <entry key="..\:/ChoIk/app/src/main/res/layout/activity_place_your_order.xml" value="0.36302083333333335" />
+        <entry key="..\:/ChoIk/app/src/main/res/layout/activity_profile.xml" value="0.36302083333333335" />
+        <entry key="..\:/ChoIk/app/src/main/res/layout/activity_splash.xml" value="0.36302083333333335" />
+        <entry key="..\:/ChoIk/app/src/main/res/layout/activity_waiting_shipper_page.xml" value="0.36302083333333335" />
+        <entry key="..\:/ChoIk/app/src/main/res/layout/choose_market.xml" value="0.36302083333333335" />
+        <entry key="..\:/ChoIk/app/src/main/res/layout/loginpage.xml" value="0.36302083333333335" />
+        <entry key="..\:/ChoIk/app/src/main/res/layout/menu_recycler_row.xml" value="0.36302083333333335" />
+        <entry key="..\:/ChoIk/app/src/main/res/layout/order_layout.xml" value="0.25" />
+        <entry key="..\:/ChoIk/app/src/main/res/layout/place_order_recycler_row.xml" value="0.1859375" />
+        <entry key="..\:/ChoIk/app/src/main/res/layout/shipper_find_order.xml" value="0.3619791666666667" />
+        <entry key="..\:/ChoIk/app/src/main/res/layout/toolbar.xml" value="0.36302083333333335" />
+        <entry key="..\:/ChoIk/app/src/main/res/layout/waiting_shipper_page.xml" value="0.36302083333333335" />
         <entry key="app/src/main/res/drawable/back.xml" value="0.1645" />
         <entry key="app/src/main/res/drawable/email.xml" value="0.1065" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1645" />

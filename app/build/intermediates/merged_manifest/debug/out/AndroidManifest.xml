@@ -40,6 +40,7 @@
         <activity android:name="com.android.vnnv.ChooseMarket" />
         <activity android:name="com.android.vnnv.DriverPage" />
         <activity android:name="com.android.vnnv.SignupPage" />
+        <activity android:name="com.android.vnnv.FindOrder" />
         <activity android:name="com.android.vnnv.WaitingShipperPage" />
 
         <service
