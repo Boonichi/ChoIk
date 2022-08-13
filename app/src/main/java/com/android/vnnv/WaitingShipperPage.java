@@ -22,14 +22,15 @@ import com.android.vnnv.model.Menu;
 
 
 public class WaitingShipperPage extends AppCompatActivity {
-    Integer index = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.waiting_shipper_page);
 
         MarketModel marketModel = getIntent().getParcelableExtra("RestaurantModel");
-        Menu menu = getIntent().getParcelableExtra("Menu");
+        Menu menu = getIntent().getParcelableExtra("menu");
+
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle(marketModel.getName());
         actionBar.setSubtitle(marketModel.getAddress());
@@ -40,8 +41,7 @@ public class WaitingShipperPage extends AppCompatActivity {
         status.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                if (status.child("address").equals("")){
-                    Order order = new Order("VTC Acedemy",marketModel.getName(),menu.getTotalInCart(), "Ongoing");}
+                Order order = new Order("VTC Acedemy",marketModel.getName(),menu.getTotalInCart(), "Ongoing");
                 status.setValue(order);
             }
 

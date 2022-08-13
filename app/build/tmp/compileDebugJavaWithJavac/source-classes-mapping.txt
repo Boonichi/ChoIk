@@ -1,7 +1,5 @@
-com/android/vnnv/PlaceYourOrderActivity.java
- com.android.vnnv.PlaceYourOrderActivity
- com.android.vnnv.PlaceYourOrderActivity$1
- com.android.vnnv.PlaceYourOrderActivity$2
+com/android/vnnv/DriverPage.java
+ com.android.vnnv.DriverPage
 com/android/vnnv/adapters/MarketListAdapter.java
  com.android.vnnv.adapters.MarketListAdapter
  com.android.vnnv.adapters.MarketListAdapter$1
@@ -37,9 +35,8 @@ com/android/vnnv/model/MarketModel.java
  com.android.vnnv.model.MarketModel$1
 com/android/vnnv/model/User.java
  com.android.vnnv.model.User
-com/android/vnnv/WaitingShipperPage.java
- com.android.vnnv.WaitingShipperPage
- com.android.vnnv.WaitingShipperPage$1
+com/android/vnnv/Profile.java
+ com.android.vnnv.Profile
 com/android/vnnv/SplashActivity.java
  com.android.vnnv.SplashActivity
  com.android.vnnv.SplashActivity$1
@@ -50,7 +47,13 @@ com/android/vnnv/LoginPage.java
  com.android.vnnv.LoginPage$1
  com.android.vnnv.LoginPage$2
  com.android.vnnv.LoginPage$2$1
-com/android/vnnv/Profile.java
- com.android.vnnv.Profile
-com/android/vnnv/DriverPage.java
- com.android.vnnv.DriverPage
+com/android/vnnv/model/Order.java
+ com.android.vnnv.model.Order
+com/android/vnnv/PlaceYourOrderActivity.java
+ com.android.vnnv.PlaceYourOrderActivity
+ com.android.vnnv.PlaceYourOrderActivity$1
+ com.android.vnnv.PlaceYourOrderActivity$2
+com/android/vnnv/WaitingShipperPage.java
+ com.android.vnnv.WaitingShipperPage
+ com.android.vnnv.WaitingShipperPage$1
+ com.android.vnnv.WaitingShipperPage$2
