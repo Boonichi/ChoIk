@@ -28,6 +28,8 @@ public class OrderStatus extends AppCompatActivity {
         //Init Firebase
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         final DatabaseReference order =  database.getReference("Order");
+        final DatabaseReference list_item =  database.getReference("List_item");
+        final DatabaseReference menu =  database.getReference("Menu");
 
         order.addValueEventListener(new ValueEventListener() {
 
@@ -38,6 +40,8 @@ public class OrderStatus extends AppCompatActivity {
                 status.setText(order.getAddress());
                 market.setText(order.getAddress());
                 price.setText(order.getAddress());
+
+
             }
 
             @Override
