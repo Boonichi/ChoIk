@@ -24,7 +24,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class SignupPage extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     private Spinner spinner;
-    private static final String[] paths = {"customer", "shipper"};
+    private static final String[] paths = {"customer", "shipper", "seller"};
     String type;
 
     @Override
@@ -69,7 +69,7 @@ public class SignupPage extends AppCompatActivity implements AdapterView.OnItemS
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         //Check if user not exist in database
-                        if (snapshot.child("customer").child(username.getText().toString()).exists() || snapshot.child("shipper").child(username.getText().toString()).exists()) {
+                        if (snapshot.child("customer").child(username.getText().toString()).exists() || snapshot.child("shipper").child(username.getText().toString()).exists() || snapshot.child("seller").child(username.getText().toString()).exists()) {
                             Toast.makeText(SignupPage.this, "Username exist", Toast.LENGTH_SHORT).show();
                         } else {
                             //Add User information
@@ -78,7 +78,7 @@ public class SignupPage extends AppCompatActivity implements AdapterView.OnItemS
 
                             Toast.makeText(SignupPage.this, "Sign Up successfully", Toast.LENGTH_SHORT).show();
                             Intent intent;
-                            if (type.equals("customer")) {
+                            if (type.equals("customer") || type.equals("seller")) {
                                 intent = new Intent(SignupPage.this, ChooseMarket.class);
                             }
                             else
@@ -119,6 +119,10 @@ public class SignupPage extends AppCompatActivity implements AdapterView.OnItemS
                 break;
             case 1:
                 type = "shipper";
+                // Whatever you want to happen when the second item gets selected
+                break;
+            case 2:
+                type = "seller";
                 // Whatever you want to happen when the second item gets selected
                 break;
         }}
