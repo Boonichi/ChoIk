@@ -3,13 +3,13 @@ package com.android.vnnv.model;
 public class Order {
     private String address;
     private String market;
-    private int price;
+    private String price;
     private String status;
 
     public Order() {
     }
 
-    public Order(String address, String market, int price, String status) {
+    public Order(String address, String market, String price, String status) {
         this.address = address;
         this.market = market;
         this.price = price;
@@ -20,7 +20,7 @@ public class Order {
         return address;
     }
 
-    public int getPrice() {return price;}
+    public String getPrice() {return price;}
 
     public String getMarket() {return market;}
 

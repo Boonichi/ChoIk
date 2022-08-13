@@ -29,20 +29,31 @@ public class WaitingShipperPage extends AppCompatActivity {
         setContentView(R.layout.waiting_shipper_page);
 
         MarketModel marketModel = getIntent().getParcelableExtra("RestaurantModel");
-        Menu menu = getIntent().getParcelableExtra("menu");
+        Bundle extras = getIntent().getExtras();
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle(marketModel.getName());
         actionBar.setSubtitle(marketModel.getAddress());
         actionBar.setDisplayHomeAsUpEnabled(false);
 
+        TextView comment = (TextView)findViewById(R.id.textView);
+
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         final DatabaseReference status =  database.getReference("Orders");
         status.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                Order order = new Order("VTC Acedemy",marketModel.getName(),menu.getTotalInCart(), "Ongoing");
-                status.setValue(order);
+                if (!snapshot.exists()) {
+                    comment.setText("Looking for Shipper");
+                    Order order = new Order("VTC Acedemy", marketModel.getName(), extras.getString("price"), "Active");
+                    status.setValue(order);
+                }
+                else if (snapshot.child("status").equals("Ongoing")){
+                    comment.setText("Your shipper got your Orders");
+                }
+                else if (snapshot.child("status").equals("Done")){
+                    comment.setText("Order Sucessfully");
+                };
             }
 
             @Override
@@ -56,6 +67,7 @@ public class WaitingShipperPage extends AppCompatActivity {
         {
             @Override
             public void onClick(View v) {
+                status.removeValue();
                 finish();
             }
         });

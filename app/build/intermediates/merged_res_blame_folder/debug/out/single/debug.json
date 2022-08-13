@@ -56,6 +56,10 @@
         "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/layout_shipper_find_order.xml.flat",
+        "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/layout/shipper_find_order.xml"
+    },
+    {
         "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/drawable_ic_type_1.xml.flat",
         "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/drawable/ic_type_1.xml"
     },

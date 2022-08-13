@@ -135,7 +135,8 @@ public class PlaceYourOrderActivity extends AppCompatActivity {
         //start success activity..
         Intent i = new Intent(PlaceYourOrderActivity.this, WaitingShipperPage.class);
         i.putExtra("RestaurantModel", marketModel);
-        startActivityForResult(i, 1000);
+        i.putExtra("price", tvTotalAmount.getText().toString());
+        startActivity(i);
     }
 
     private void initRecyclerView(MarketModel marketModel) {
