@@ -5,13 +5,13 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="VnnV"
+        android:label="ChoIk"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodOrderApp">
-        <activity android:name="com.android.vnnv.OrderSucceessActivity"></activity>
+        <activity android:name="com.android.vnnv.WaitingShipperPage"></activity>
         <activity android:name="com.android.vnnv.PlaceYourOrderActivity" />
-        <activity android:name="com.android.vnnv.RestaurantMenuActivity" />
+        <activity android:name="com.android.vnnv.MarketMenuActivity" />
         <activity android:name="com.android.vnnv.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.android.vnnv.LoginPage"/>
-        <activity android:name="com.android.vnnv.ChooseRestaurant" />
+        <activity android:name="com.android.vnnv.ChooseMarket" />
     </application>
 
 </manifest>

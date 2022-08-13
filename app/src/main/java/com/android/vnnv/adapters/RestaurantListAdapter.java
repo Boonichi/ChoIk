@@ -10,23 +10,23 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.vnnv.R;
-import com.android.vnnv.model.RestaurantModel;
+import com.android.vnnv.model.MarketModel;
 import com.bumptech.glide.Glide;
 
 import java.util.List;
 
 public class RestaurantListAdapter extends RecyclerView.Adapter<RestaurantListAdapter.MyViewHolder> {
 
-    private List<RestaurantModel> restaurantModelList;
+    private List<MarketModel> marketModelList;
     private RestaurantListClickListener clickListener;
 
-    public RestaurantListAdapter(List<RestaurantModel> restaurantModelList, RestaurantListClickListener clickListener) {
-        this.restaurantModelList = restaurantModelList;
+    public RestaurantListAdapter(List<MarketModel> marketModelList, RestaurantListClickListener clickListener) {
+        this.marketModelList = marketModelList;
         this.clickListener = clickListener;
     }
 
-    public void updateData(List<RestaurantModel> restaurantModelList) {
-        this.restaurantModelList = restaurantModelList;
+    public void updateData(List<MarketModel> marketModelList) {
+        this.marketModelList = marketModelList;
         notifyDataSetChanged();
     }
 
@@ -39,25 +39,25 @@ public class RestaurantListAdapter extends RecyclerView.Adapter<RestaurantListAd
 
     @Override
     public void onBindViewHolder(@NonNull RestaurantListAdapter.MyViewHolder holder, int position) {
-        holder.restaurantName.setText(restaurantModelList.get(position).getName());
-        holder.restaurantAddress.setText("Address: "+restaurantModelList.get(position).getAddress());
-        holder.restaurantHours.setText("Today's hours: " + restaurantModelList.get(position).getHours().getTodaysHours());
+        holder.restaurantName.setText(marketModelList.get(position).getName());
+        holder.restaurantAddress.setText("Address: "+ marketModelList.get(position).getAddress());
+        holder.restaurantHours.setText("Today's hours: " + marketModelList.get(position).getHours().getTodaysHours());
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                clickListener.onItemClick(restaurantModelList.get(position));
+                clickListener.onItemClick(marketModelList.get(position));
             }
         });
         Glide.with(holder.thumbImage)
-                .load(restaurantModelList.get(position).getImage())
+                .load(marketModelList.get(position).getImage())
                 .into(holder.thumbImage);
 
     }
 
     @Override
     public int getItemCount() {
-        return restaurantModelList.size();
+        return marketModelList.size();
     }
 
     static class MyViewHolder extends RecyclerView.ViewHolder {
@@ -77,6 +77,6 @@ public class RestaurantListAdapter extends RecyclerView.Adapter<RestaurantListAd
     }
 
     public interface RestaurantListClickListener {
-        public void onItemClick(RestaurantModel restaurantModel);
+        public void onItemClick(MarketModel marketModel);
     }
 }

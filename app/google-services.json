@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "421770763491",
+    "firebase_url": "https://j19train-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "j19train",
+    "storage_bucket": "j19train.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421770763491:android:51b0bf79f02ed36b7779d6",
+        "android_client_info": {
+          "package_name": "com.android.vnnv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421770763491-kb6ag1n1qi8lif4cha04mm5ktl921vqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6FpVT2Znf08gddeMKJRJuJbtcGQTVsFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421770763491-kb6ag1n1qi8lif4cha04mm5ktl921vqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

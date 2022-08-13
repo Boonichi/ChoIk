@@ -20,7 +20,7 @@ import android.widget.TextView;
 
 import com.android.vnnv.adapters.PlaceYourOrderAdapter;
 import com.android.vnnv.model.Menu;
-import com.android.vnnv.model.RestaurantModel;
+import com.android.vnnv.model.MarketModel;
 
 public class PlaceYourOrderActivity extends AppCompatActivity {
 
@@ -36,10 +36,10 @@ public class PlaceYourOrderActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_place_your_order);
 
-        RestaurantModel restaurantModel = getIntent().getParcelableExtra("RestaurantModel");
+        MarketModel marketModel = getIntent().getParcelableExtra("RestaurantModel");
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle(restaurantModel.getName());
-        actionBar.setSubtitle(restaurantModel.getAddress());
+        actionBar.setTitle(marketModel.getName());
+        actionBar.setSubtitle(marketModel.getAddress());
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         inputName = findViewById(R.id.inputName);
@@ -62,7 +62,7 @@ public class PlaceYourOrderActivity extends AppCompatActivity {
         buttonPlaceYourOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onPlaceOrderButtonClick(restaurantModel);
+                onPlaceOrderButtonClick(marketModel);
             }
         });
 
@@ -77,7 +77,7 @@ public class PlaceYourOrderActivity extends AppCompatActivity {
                     tvDeliveryChargeAmount.setVisibility(View.VISIBLE);
                     tvDeliveryCharge.setVisibility(View.VISIBLE);
                     isDeliveryOn = true;
-                    calculateTotalAmount(restaurantModel);
+                    calculateTotalAmount(marketModel);
                 } else {
                     inputAddress.setVisibility(View.GONE);
                     inputCity.setVisibility(View.GONE);
@@ -86,30 +86,30 @@ public class PlaceYourOrderActivity extends AppCompatActivity {
                     tvDeliveryChargeAmount.setVisibility(View.GONE);
                     tvDeliveryCharge.setVisibility(View.GONE);
                     isDeliveryOn = false;
-                    calculateTotalAmount(restaurantModel);
+                    calculateTotalAmount(marketModel);
                 }
             }
         });
-        initRecyclerView(restaurantModel);
-        calculateTotalAmount(restaurantModel);
+        initRecyclerView(marketModel);
+        calculateTotalAmount(marketModel);
     }
 
-    private void calculateTotalAmount(RestaurantModel restaurantModel) {
+    private void calculateTotalAmount(MarketModel marketModel) {
         float subTotalAmount = 0f;
 
-        for(Menu m : restaurantModel.getMenus()) {
+        for(Menu m : marketModel.getMenus()) {
             subTotalAmount += m.getPrice() * m.getTotalInCart();
         }
 
         tvSubtotalAmount.setText("$"+String.format("%.2f", subTotalAmount));
         if(isDeliveryOn) {
-            tvDeliveryChargeAmount.setText("$"+String.format("%.2f", restaurantModel.getDelivery_charge()));
-            subTotalAmount += restaurantModel.getDelivery_charge();
+            tvDeliveryChargeAmount.setText("$"+String.format("%.2f", marketModel.getDelivery_charge()));
+            subTotalAmount += marketModel.getDelivery_charge();
         }
         tvTotalAmount.setText("$"+String.format("%.2f", subTotalAmount));
     }
 
-    private void onPlaceOrderButtonClick(RestaurantModel restaurantModel) {
+    private void onPlaceOrderButtonClick(MarketModel marketModel) {
         if(TextUtils.isEmpty(inputName.getText().toString())) {
             inputName.setError("Please enter name ");
             return;
@@ -133,14 +133,14 @@ public class PlaceYourOrderActivity extends AppCompatActivity {
             return;
         }
         //start success activity..
-        Intent i = new Intent(PlaceYourOrderActivity.this, OrderSucceessActivity.class);
-        i.putExtra("RestaurantModel", restaurantModel);
+        Intent i = new Intent(PlaceYourOrderActivity.this, WaitingShipperPage.class);
+        i.putExtra("RestaurantModel", marketModel);
         startActivityForResult(i, 1000);
     }
 
-    private void initRecyclerView(RestaurantModel restaurantModel) {
+    private void initRecyclerView(MarketModel marketModel) {
         cartItemsRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        placeYourOrderAdapter = new PlaceYourOrderAdapter(restaurantModel.getMenus());
+        placeYourOrderAdapter = new PlaceYourOrderAdapter(marketModel.getMenus());
         cartItemsRecyclerView.setAdapter(placeYourOrderAdapter);
     }
 

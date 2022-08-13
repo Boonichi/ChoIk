@@ -6,9 +6,13 @@
 
     <uses-sdk
         android:minSdkVersion="24"
-        android:targetSdkVersion="29" />
+        android:targetSdkVersion="30" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -16,14 +20,14 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="VnnV"
+        android:label="ChoIk"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.FoodOrderApp" >
-        <activity android:name="com.android.vnnv.OrderSucceessActivity" />
+        <activity android:name="com.android.vnnv.WaitingShipperPage" />
         <activity android:name="com.android.vnnv.PlaceYourOrderActivity" />
-        <activity android:name="com.android.vnnv.RestaurantMenuActivity" />
+        <activity android:name="com.android.vnnv.MarketMenuActivity" />
         <activity android:name="com.android.vnnv.SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,7 +36,32 @@
             </intent-filter>
         </activity>
         <activity android:name="com.android.vnnv.LoginPage" />
-        <activity android:name="com.android.vnnv.ChooseRestaurant" />
+        <activity android:name="com.android.vnnv.ChooseMarket" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.android.vnnv.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>
