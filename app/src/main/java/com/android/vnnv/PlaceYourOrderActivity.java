@@ -134,7 +134,7 @@ public class PlaceYourOrderActivity extends AppCompatActivity {
         }
         //start success activity..
         Intent i = new Intent(PlaceYourOrderActivity.this, WaitingShipperPage.class);
-        i.putExtra("RestaurantModel", marketModel);
+        i.putExtra("price", tvTotalAmount.getText().toString());
         startActivityForResult(i, 1000);
     }
 
