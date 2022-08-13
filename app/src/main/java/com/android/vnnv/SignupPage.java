@@ -121,12 +121,9 @@ public class SignupPage extends AppCompatActivity implements AdapterView.OnItemS
                 type = "shipper";
                 // Whatever you want to happen when the second item gets selected
                 break;
+        }}
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
 
-        }
-    }
-
-    @Override
-    public void onNothingSelected(AdapterView<?> adapterView) {
-
-    }
+            }
 }
