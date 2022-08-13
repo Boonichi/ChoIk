@@ -38,6 +38,7 @@
         <activity android:name="com.android.vnnv.LoginPage" />
         <activity android:name="com.android.vnnv.ChooseMarket" />
         <activity android:name="com.android.vnnv.DriverPage" />
+        <activity android:name="com.android.vnnv.SignupPage" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

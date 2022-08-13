@@ -1,4 +1,4 @@
-#Sat Aug 13 12:39:39 ICT 2022
+#Sat Aug 13 14:11:53 ICT 2022
 base.1=/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
 path.1=classes.dex
 base.0=/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex

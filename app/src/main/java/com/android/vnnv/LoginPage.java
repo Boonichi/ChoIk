@@ -30,10 +30,20 @@ public class LoginPage extends AppCompatActivity {
         TextView password =(TextView) findViewById(R.id.password);
 
         MaterialButton loginbtn = (MaterialButton) findViewById(R.id.loginbtn);
+        MaterialButton signup = (MaterialButton) findViewById(R.id.signup);
 
         //Init Firebase
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         final DatabaseReference users =  database.getReference("User");
+
+        //Move to sign up
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LoginPage.this, SignupPage.class);
+                startActivity(intent);
+            }
+        });
 
         //LoginButton
         loginbtn.setOnClickListener(new View.OnClickListener() {
