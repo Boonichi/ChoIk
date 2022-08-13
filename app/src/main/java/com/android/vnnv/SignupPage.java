@@ -83,7 +83,7 @@ public class SignupPage extends AppCompatActivity implements AdapterView.OnItemS
                             }
                             else
                             {
-                                intent = new Intent(SignupPage.this, DriverPage.class);
+                                intent = new Intent(SignupPage.this, FindOrder.class);
                             }
                             startActivity(intent);
                         }
