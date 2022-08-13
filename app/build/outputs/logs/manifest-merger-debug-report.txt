@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [com.google.android.material:material:1.2.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/446c24fd4874baaaef6cc596145fec7b/material-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/a12a64f6f966aec91edfe70816a0c676/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
 MERGED from [com.mikhaellopez:circularimageview:4.3.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/92e5f30e37753d313e6b8aec6ced0dab/jetified-circularimageview-4.3.0/AndroidManifest.xml:2:1-9:12
@@ -47,20 +47,20 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/phanvanhung/.gradle/c
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/4c65001ef769a9ddde8bfa4071a958ab/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/bc57227fc39e3c623d63dbd1b7c943ec/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/ed0c3676b9645a39b2550cf86e3b3379/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:3:5-31
 		INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
-		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
-		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:2:11-69
@@ -71,7 +71,7 @@ MERGED from [com.google.firebase:firebase-database:20.0.5] /Users/phanvanhung/.g
 	android:name
 		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:4:20-62
 application
-ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:5:5-25:19
 MERGED from [com.google.android.material:material:1.2.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/446c24fd4874baaaef6cc596145fec7b/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/446c24fd4874baaaef6cc596145fec7b/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/a12a64f6f966aec91edfe70816a0c676/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -146,6 +146,10 @@ activity#com.android.vnnv.ChooseMarket
 ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:23:9-66
 	android:name
 		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:23:19-63
+activity#com.android.vnnv.DriverPage
+ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:24:9-64
+	android:name
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:24:19-61
 uses-sdk
 INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml

@@ -40,11 +40,11 @@ com/android/vnnv/SplashActivity.java
  com.android.vnnv.SplashActivity$1
 com/android/vnnv/ChooseMarket.java
  com.android.vnnv.ChooseMarket
+com/android/vnnv/Profile.java
+ com.android.vnnv.Profile
 com/android/vnnv/LoginPage.java
  com.android.vnnv.LoginPage
  com.android.vnnv.LoginPage$1
  com.android.vnnv.LoginPage$1$1
-com/android/vnnv/Profile.java
- com.android.vnnv.Profile
 com/android/vnnv/DriverPage.java
  com.android.vnnv.DriverPage

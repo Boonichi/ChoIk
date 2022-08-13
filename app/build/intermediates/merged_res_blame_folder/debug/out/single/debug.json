@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/drawable_button_bg.xml.flat",
-        "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/drawable/button_bg.xml"
-    },
-    {
         "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/drawable_ic_check_default.xml.flat",
         "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/drawable/ic_check_default.xml"
+    },
+    {
+        "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/drawable_button_bg.xml.flat",
+        "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/drawable/button_bg.xml"
     },
     {
         "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/layout_recycler_row.xml.flat",
@@ -52,6 +52,10 @@
         "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/layout/toolbar.xml"
     },
     {
+        "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/layout_shipper_delivery_page.xml.flat",
+        "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/layout/shipper_delivery_page.xml"
+    },
+    {
         "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
@@ -66,10 +70,6 @@
     {
         "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/drawable_ic_attach_money_black_24dp.xml.flat",
         "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/drawable/ic_attach_money_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/layout_delivery_page.xml.flat",
-        "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/layout/delivery_page.xml"
     },
     {
         "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/drawable_ic_person_black_24dp.xml.flat",
@@ -216,12 +216,12 @@
         "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/drawable/ic_add_circle.xml"
     },
     {
-        "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/drawable_ic_circle.xml.flat",
-        "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/drawable/ic_circle.xml"
-    },
-    {
         "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/drawable_ic_location_on_grey_24dp.xml.flat",
         "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/drawable/ic_location_on_grey_24dp.xml"
+    },
+    {
+        "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/drawable_ic_circle.xml.flat",
+        "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/drawable/ic_circle.xml"
     },
     {
         "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/drawable_ic_chip.xml.flat",
