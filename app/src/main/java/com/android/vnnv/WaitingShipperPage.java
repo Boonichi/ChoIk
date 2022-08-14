@@ -37,28 +37,24 @@ public class WaitingShipperPage extends AppCompatActivity {
         actionBar.setDisplayHomeAsUpEnabled(false);
 
         TextView comment = (TextView)findViewById(R.id.textView);
-
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         final DatabaseReference status =  database.getReference("Orders");
         status.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                if (!snapshot.exists()) {
-                    comment.setText("Looking for Shipper");
-                    Order order = new Order("VTC Acedemy", marketModel.getName(), extras.getString("price"), "Active");
+                comment.setText("Looking for Shipper");
+                if ((!snapshot.exists()) || (snapshot.child("status").child("Active").exists())) {
+                    Order order = new Order("VTC Academy", marketModel.getName(), extras.getString("price"), "Active");
                     status.setValue(order);
+                    comment.setText("Looking for Shipper");
                 }
-                else if (snapshot.child("status").equals("Ongoing")){
-                    comment.setText("Your shipper got your Orders");
-                }
-                else if (snapshot.child("status").equals("Done")){
+                if (snapshot.child("status").child("Done").exists()){
                     comment.setText("Order Sucessfully");
-                };
+                }
             }
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-
             }
         });
 

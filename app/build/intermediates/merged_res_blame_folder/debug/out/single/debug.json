@@ -1,23 +1,23 @@
 [
     {
-        "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/drawable_ic_check_default.xml.flat",
-        "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/drawable/ic_check_default.xml"
-    },
-    {
         "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/drawable_button_bg.xml.flat",
         "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/drawable/button_bg.xml"
+    },
+    {
+        "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/drawable_ic_check_default.xml.flat",
+        "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/drawable/ic_check_default.xml"
     },
     {
         "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/layout_recycler_row.xml.flat",
         "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/layout/recycler_row.xml"
     },
     {
-        "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/drawable_ic_keyboard_arrow_up_black_24dp.xml.flat",
-        "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/drawable/ic_keyboard_arrow_up_black_24dp.xml"
-    },
-    {
         "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/drawable_person.xml.flat",
         "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/drawable/person.xml"
+    },
+    {
+        "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/drawable_ic_keyboard_arrow_up_black_24dp.xml.flat",
+        "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/drawable/ic_keyboard_arrow_up_black_24dp.xml"
     },
     {
         "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/drawable_ic_map_black_24dp.xml.flat",
@@ -46,10 +46,6 @@
     {
         "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/layout_toolbar.xml.flat",
         "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/layout/toolbar.xml"
-    },
-    {
-        "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/layout_shipper_delivery_page.xml.flat",
-        "source": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/res/layout/shipper_delivery_page.xml"
     },
     {
         "merged": "/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",

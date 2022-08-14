@@ -63,7 +63,7 @@ public class LoginPage extends AppCompatActivity {
                     } else if (snapshot.child("shipper").child(username.getText().toString()).exists()) {
                         User shipper = snapshot.child("shipper").child(username.getText().toString()).getValue(User.class);
                         if (shipper.getPass().equals(password.getText().toString())) {
-                            Intent intent = new Intent(LoginPage.this, DriverPage.class);
+                            Intent intent = new Intent(LoginPage.this, FindOrder.class);
                             startActivity(intent);
                         }
                     }

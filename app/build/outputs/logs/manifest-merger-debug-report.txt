@@ -153,14 +153,14 @@ activity#com.android.vnnv.ChooseMarket
 ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:24:9-66
 	android:name
 		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:24:19-63
-activity#com.android.vnnv.DriverPage
-ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:25:9-64
-	android:name
-		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:25:19-61
 activity#com.android.vnnv.FindOrder
-ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:27:9-63
+ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:26:9-63
 	android:name
-		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:27:19-60
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:26:19-60
+activity#com.android.vnnv.OrderStatus
+ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:28:9-65
+	android:name
+		ADDED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:28:19-62
 uses-sdk
 INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml

@@ -71,18 +71,18 @@
 40        <activity android:name="com.android.vnnv.ChooseMarket" />
 40-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:24:9-66
 40-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:24:19-63
-41        <activity android:name="com.android.vnnv.DriverPage" />
-41-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:25:9-64
-41-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:25:19-61
-42        <activity android:name="com.android.vnnv.SignupPage" />
-42-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:23:9-63
-42-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:23:19-61
-43        <activity android:name="com.android.vnnv.FindOrder" />
-43-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:27:9-63
-43-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:27:19-60
-44        <activity android:name="com.android.vnnv.WaitingShipperPage" />
-44-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:12:9-81
-44-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:12:19-69
+41        <activity android:name="com.android.vnnv.SignupPage" />
+41-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:23:9-63
+41-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:23:19-61
+42        <activity android:name="com.android.vnnv.FindOrder" />
+42-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:26:9-63
+42-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:26:19-60
+43        <activity android:name="com.android.vnnv.WaitingShipperPage" />
+43-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:12:9-81
+43-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:12:19-69
+44        <activity android:name="com.android.vnnv.OrderStatus" />
+44-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:28:9-65
+44-->/Users/phanvanhung/AndroidStudioProjects/ChoIk/app/src/main/AndroidManifest.xml:28:19-62
 45
 46        <service
 46-->[com.google.firebase:firebase-database:20.0.5] /Users/phanvanhung/.gradle/caches/transforms-2/files-2.1/df01c2d7571bd05be7cd9d3a29c4b538/jetified-firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19

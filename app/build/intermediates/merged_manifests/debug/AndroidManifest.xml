@@ -38,10 +38,10 @@
         <activity android:name="com.android.vnnv.LoginPage" />
         <activity android:name="com.android.vnnv.SignupPage" />
         <activity android:name="com.android.vnnv.ChooseMarket" />
-        <activity android:name="com.android.vnnv.DriverPage" />
         <activity android:name="com.android.vnnv.SignupPage" />
         <activity android:name="com.android.vnnv.FindOrder" />
         <activity android:name="com.android.vnnv.WaitingShipperPage" />
+        <activity android:name="com.android.vnnv.OrderStatus" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
